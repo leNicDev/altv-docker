@@ -51,4 +51,4 @@ jobs:
           FORCE_COLOR: 2
 
       - name: Push to Docker Hub
-        run: docker image push -a altmp/altv-server
+        run: docker image push -a lenicdev/altv
