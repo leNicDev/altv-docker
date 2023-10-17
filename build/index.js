@@ -10,7 +10,7 @@ const CDN_URL = "https://cdn.alt-mp.com";
 const baseModules = ['coreclr-module', 'js-module'];
 const branches = ['dev', 'rc', 'release'];
 const platform = 'x64_win32';
-const imageName = 'altmp/altv-server';
+const imageName = 'lenicdev/altv-server';
 
 /**
  * Execute simple shell command (async wrapper).
