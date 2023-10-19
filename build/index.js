@@ -8,7 +8,7 @@ const cacheEnabled = process.argv[2] === "cache";
 const CDN_URL = "https://cdn.alt-mp.com";
 
 const baseModules = ['coreclr-module', 'js-module'];
-const branches = ['dev', 'rc', 'release'];
+const branches = ['dev', 'rc', /*'release'*/];
 const platform = 'x64_linux';
 const imageName = 'lenicdev/altv-server';
 
