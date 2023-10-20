@@ -131,6 +131,8 @@ function run() {
             threads: obj({
                 streamer: num('ALTV_THREADS_STREAMER'),
                 migration: num('ALTV_THREADS_MIGRATION'),
+                syncSend: num('ALTV_THREADS_SYNC_SEND'),
+                syncReceive: num('ALTV_THREADS_SYNC_RECEIVE'),
             }),
             pools: jsonObj('ALTV_POOLS'),
             'csharp-module': obj({
